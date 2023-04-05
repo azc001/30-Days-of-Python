@@ -8,4 +8,4 @@
 name = input("Please enter the employee's name: ").strip().title()
 wage = input(f"Please enter {name}'s hourly wage: ")
 hours = input(f"Please enter how many hours {name} worked this week: ")
-print("{} earned ${} this week.".format(name, float(wage) * float(hours)))
+print("{0} earned ${1:.2f} this week.".format(name, float(wage) * float(hours)))
